@@ -51,7 +51,7 @@ class caferisimDialog(QWidget):
             QMessageBox.information(self, "Hata", "Cafergggg ")
             
 
-if __caferisim__ == "__main__":
+if __name__ == "__main__":
     app = QApplication(sys.argv)
     dialog = caferisimDialog()
     dialog.show()
