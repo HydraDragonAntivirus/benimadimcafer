@@ -2,7 +2,7 @@ import os
 import sys
 import struct
 from Crypto.Cipher import AES
-from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QLabel
+from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QLabel, QMessageBox
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QPainter, QFont
 from notifypy import Notify
